@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Calculator app
 
+<img width="375" alt="image" src="https://user-images.githubusercontent.com/11335532/196272242-661911ca-af9a-408c-9627-4eba56677172.png">
 This project was deployed here [Calculator jzena]([https://github.com/facebook/create-react-app](https://jzena.github.io/calculator-jzena/)).
+
 
 ## Available Scripts
 
