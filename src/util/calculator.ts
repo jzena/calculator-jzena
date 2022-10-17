@@ -1,6 +1,7 @@
 import {MouseEvent} from 'react'
 import { ButtonsBoxProps } from '../components/ButtonsBox';
 
+// Functions for making the computation
 const toLocaleString = (num: number) =>
   String(num).replace(/(?<!\..*)(\d)(?=(?:\d{3})+(?:\.|$))/g, '$1 ');
 
@@ -129,3 +130,84 @@ export const resetClickHandler = (
     res: 0,
   });
 };
+
+// Map with all the setup for the calculator buttons
+export const BtnSetup = {
+  C: {
+    className: '!bg-[#383939]',
+    onClick: resetClickHandler,
+  },
+  '+-': {
+    className: '!bg-[#383939]',
+    onClick: invertClickHandler,
+  },
+  '%': {
+    className: '!bg-[#383939]',
+    onClick: percentClickHandler
+  },
+  '/': {
+    className: '!bg-[#f39e2b]',
+    onClick: signClickHandler
+  },
+  7: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  8: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  9: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  X: {
+    className: '!bg-[#f39e2b]',
+    onClick: signClickHandler
+  },
+  4: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  5: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  6: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  '-': {
+    className: '!bg-[#f39e2b]',
+    onClick: signClickHandler
+  },
+  1: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  2: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  3: {
+    className: '!bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  '+': {
+    className: '!bg-[#f39e2b]',
+    onClick: signClickHandler
+  },
+  0: {
+    className: 'col-span-2 !bg-[#5a6575]',
+    onClick: numClickHandler,
+  },
+  '.': {
+    className: '!bg-[#5a6575]',
+    onClick: commaClickHandler
+  },
+  '=': {
+    className: '!bg-[#f39e2b]',
+    onClick: equalsClickHandler
+  },
+};
+
