@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/calculator-jzena/static/css/main.3a1bd103.css",
+    "main.js": "/calculator-jzena/static/js/main.4e26898b.js",
+    "static/js/787.8dd2b896.chunk.js": "/calculator-jzena/static/js/787.8dd2b896.chunk.js",
+    "index.html": "/calculator-jzena/index.html",
+    "main.3a1bd103.css.map": "/calculator-jzena/static/css/main.3a1bd103.css.map",
+    "main.4e26898b.js.map": "/calculator-jzena/static/js/main.4e26898b.js.map",
+    "787.8dd2b896.chunk.js.map": "/calculator-jzena/static/js/787.8dd2b896.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a1bd103.css",
+    "static/js/main.4e26898b.js"
+  ]
+}
